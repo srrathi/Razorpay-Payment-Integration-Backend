@@ -1,0 +1,58 @@
+{
+    "entity": "event",
+    "account_id": "acc_HG5ampodqaJFQx",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_HGCMa7Ss1MxAqQ",
+                "entity": "payment",
+                "amount": 50000,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_HGCM1Jy8ZA5j5a",
+                "invoice_id": null,
+                "international": false,
+                "method": "card",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Test Transaction",
+                "card_id": "card_HGCMaA1B0xzisj",
+                "card": {
+                    "id": "card_HGCMaA1B0xzisj",
+                    "entity": "card",
+                    "name": "Sitaram Rathi",
+                    "last4": "1111",
+                    "network": "Visa",
+                    "type": "debit",
+                    "issuer": null,
+                    "international": false,
+                    "emi": false,
+                    "sub_type": "consumer"
+                },
+                "bank": null,
+                "wallet": null,
+                "vpa": null,
+                "email": "sdd@csdc.com",
+                "contact": "+911234567899",
+                "notes": [],
+                "fee": 1000,
+                "tax": 0,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "auth_code": "515509"
+                },
+                "created_at": 1622201855
+            }
+        }
+    },
+    "created_at": 1622201858
+}
